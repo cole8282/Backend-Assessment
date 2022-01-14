@@ -1,0 +1,12 @@
+#dino-box {
+margin-top: 5%;
+width: 900px;
+height: 300px;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3camO2Tgl4KPZ0Q8ibIouMxeo-8f2N1SPqw&usqp=CAU");
+border: 5px solid black;
+background-color: white;
+}
+
+#url-img {
+  margin-top: 1%;
+}
