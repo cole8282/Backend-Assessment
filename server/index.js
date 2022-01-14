@@ -45,10 +45,9 @@ app.listen(4000, () => console.log("Server running on 4000"));
 
 
 //change dino pic button
-app.put("/api/refresh/:id", function(req, res) {
-  if (req.body.color !== 'purple') {
-    req.body.color = 'purple';
-  }
+app.put("/api/change/", function(req, res) {
+
+
   res.status(200).send(req.body.color);
 
 })

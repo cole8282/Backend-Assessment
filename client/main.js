@@ -60,9 +60,10 @@ let objectBody = {
 }
 
 let id = dinoBox;
-axios.put('/api/change/', objectBody)
+axios.put('http://localhost:4000/api/change/', objectBody)
 .then(function(res) {
-  id.style.backgroundColor = res.data.color;
+  console.log(res.data);
+  id.style.borderColor = res.data;
 })
 }
 
